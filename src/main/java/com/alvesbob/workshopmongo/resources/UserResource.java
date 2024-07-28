@@ -46,7 +46,7 @@ public class UserResource {
 	return ResponseEntity.ok().body(new UserDTO(obj));
 	}
 	
-	//@RequestBody converte o JSON ou XML em um obketo Java
+	//@RequestBody converte o JSON ou XML em um objeto Java
 	@PostMapping
 	public ResponseEntity<Void> insert(@RequestBody UserDTO objDto){
 	
