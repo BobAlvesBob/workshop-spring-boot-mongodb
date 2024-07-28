@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alvesbob.workshopmongo.domain.Post;
-import com.alvesbob.workshopmongo.dto.UserDTO;
+
 import com.alvesbob.workshopmongo.services.PostService;
 
 @RestController
